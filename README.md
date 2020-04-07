@@ -1,13 +1,7 @@
-#**刚刚入门多智能体系统故障检测算法的小白的分享！（基于matlab R2018a）**  
-***
+# **刚刚入门多智能体系统故障检测算法的小白的分享！（基于matlab R2018a）**  
+## **用到的函数**   
+* 1   
 
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
 
 # Header 1
 ## Header 2
