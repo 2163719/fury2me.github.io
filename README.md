@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+##**刚刚入门多智能体系统故障检测算法的小白的分享！（基于matlab R2018a）**  
+***
 
-You can use the [editor on GitHub](https://github.com/2163719/fury2me.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
