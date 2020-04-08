@@ -18,7 +18,7 @@
 
 ## **求解Riccati离散时间代数方程**   
 * [X,L,G] = dare(A,B,Q,R,S,E)：话不多说，直接贴上matlab帮助文档里边提供的解释   
-![figure2]()   
+![figure2](https://github.com/2163719/fury2me.github.io/blob/master/2.png)   
 * [V,D] = eig(A)：返回特征值的对角矩阵D，并返回矩阵V，矩阵V的列是对应的右特征向量，即A*V=V*D
 
 ## **LMI求解**  
