@@ -11,14 +11,21 @@
 ```plot(t,R,t,J,'--'),xlabel('t'),ylabel('y'),legend('R','J')```绘出的图如下所示：      
                    ![figure1](https://github.com/2163719/fury2me.github.io/blob/master/1.png)   
                    
-## **递归算法**   
+## **递归算法**      
+对连续时间方程进行离散化处理后，出现```x(k+1) = x(k)```类似的式子，因此就用到了递归算法，而且```x(k)```还是多维矩阵，给运算增添了难度。一开始运行一直有问题，后来在网上查了递归算法最经典也是最基础的案例——斐波那契数列，这才有了思路。代码如下，其中k是采样次数，因此```x(k)```是要封装成一个自定义的函数的，k需要自己赋值。   
+```
+if k == 0
+    x1 = [0;0;0;0];
+else
+    Op = [0;0;0;0];
+    Fibb = horzcat(Op,zeros(4,k));
+    for i=1:1:k
+        Fibb(:,i+1) = A*Fibb(:,i)+B;
+    end
+end
+```
+其中A、B代表式子中的各个系数矩阵
 
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
 
 **Bold** and _Italic_ and `Code` text
 
@@ -31,6 +38,3 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/2163719/fury2me.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
