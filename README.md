@@ -13,11 +13,6 @@ plot(t,R,t,J,'--'),xlabel('t'),ylabel('y'),legend('R','J')绘出的图如下所�
 
 ## **递归算法**   
 
-
-# Header 1
-## Header 2
-### Header 3
-
 - Bulleted
 - List
 
