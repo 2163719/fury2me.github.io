@@ -9,7 +9,7 @@
 * 6.plot（）：matlab绘图中最常用的函数。如plot(t,R,t,J,'--'),表示在figure图中绘出两条曲线，自变量都是t，因变量分别是R和J，其中R默认为实线，J默认为虚线“--”。在基本的图中可以添加横纵轴的标签：xlabel('t'),ylabel('y')。还可以添加图例：legend('R','J')，分别标明两条曲线所代表的的含义。   
 综合在一起，
 plot(t,R,t,J,'--'),xlabel('t'),ylabel('y'),legend('R','J')绘出的图如下所示：      
-![figure1](file:///C:/Users/%E5%AD%90%E7%92%87/Desktop/Snipaste_2020-04-08_13-04-49.png)
+![figure1](https://github.com/2163719/fury2me.github.io/blob/master/1.png)
 
 ## **递归算法**   
 
