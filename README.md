@@ -34,7 +34,7 @@ else
     Op = [0;0;0;0];
     Fibb = horzcat(Op,zeros(4,k));
     for i=1:1:k
-        Fibb(:,i+1) = A*Fibb(:,i)+B;%%Fibb(:,i+1)代表第i+1列，也就是x(k+1)
+        Fibb(:,i+1) = A*Fibb(:,i)+B;%Fibb(:,i+1)代表第i+1列，也就是x(k+1)
     end
 end
 ```
